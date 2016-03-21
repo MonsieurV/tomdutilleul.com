@@ -97,9 +97,9 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  background: #000000 url('/static/img/background.jpg') top center; /* repea fixed; */
+  background: #000 url('/static/img/background.jpg') top center; /* repea fixed; */
   font-family: "Lora", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#ffffff; }
+  color:#FFF; }
 
 
 /* Typography
@@ -132,9 +132,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #695E7E; }
 a:hover {
-  color: #0FA0CE; }
+  color: #493F5B; }
 
 
 /* Lists
@@ -191,15 +191,6 @@ form {
   float: left; }
 
 
-/* Misc
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-hr {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
-  border-width: 0;
-  border-top: 1px solid #E1E1E1; }
-
-
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -220,42 +211,34 @@ img {
     max-width:100%;
     display: inline-block;
 }
-
-.wrap {
-    width:1000px;
-    margin:0 auto;
-}
 .plogo {
     width:100%;
     /* height:100px; */
     text-align:center;
 }
 .logo {
-    width:10%;
+    width:25%;
     display: inline-block;
     text-align:center;
     margin-left:2.5%;
     margin-right:2.5%;
 }
-.colTitre {
-    width:60%;
-    float:right;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+.main-title {
+  color: #000;
+
+}
+.main-title h1 {
+  font-size: 6rem;
 }
 
 /* Header ========================= */
 
 header {
-	background-color:#2d2d2d;
+	background-color:#47191B;
 	color:#fff;
-    position:fixed;
-    top:0;
-    height:80px;
-    width:100%;
-    z-index:100;
-    box-shadow: 1px 1px 5px #000;
-        -moz-box-shadow: 1px 1px 5px #000;
-        -webkit-box-shadow: 1px 1px 5px #000;
+  width:100%;
+  z-index:100;
+  box-shadow: 1px 3px 1px #000;
 }
 nav ul {
     float:right;
@@ -269,16 +252,16 @@ nav ul li {
 nav ul li a {
     display:block;
     text-decoration:none;
-    line-height:76px;
-    border-bottom:4px solid transparent;
-    padding:0 20px;
+    line-height: 50px;
+    padding: 10px 20px;
+    border-bottom: 1px solid transparent;
     color:#ffffff;
 }
 nav ul li.active a,
 nav ul li a:hover {
     color:#ffffff;
     text-decoration:none;
-    border-bottom:4px solid #104e79;
+    border-bottom: 1px solid #493F5B;
 }
 
 /* Content ========================= */
@@ -292,28 +275,13 @@ section {
     margin-top:10px;
     padding:11.7em 0;
 }
-/* TODO Factorize */
-#presentation,
-#recherche,
-#enseignement,
-#alma,
-#anim,
-#misc,
-#contact {
-    background-color:#2d2d2d;
-    box-shadow: 1px 1px 5px #000;
-        -moz-box-shadow: 1px 1px 5px #000;
-        -webkit-box-shadow: 1px 1px 5px #000;
+
+section.largerow {
+    background-color:#47191B;
+    box-shadow: 1px 3px 1px #000;
 }
-#promo {
-    /* background-color: #1e60ff; */
-    padding:100px;
-    /* overflow: hidden; */
-    /* border-radius:30px; */
-    /*     -moz-border-radius:3px; */
-    /* box-shadow: 1px 1px 5px #000; */
-    /*     -moz-box-shadow: 1px 1px 5px #000; */
-    /*     -webkit-box-shadow: 1px 1px 5px #000; */
+div.padding-row {
+    padding: 90px;
 }
 
 /* Footer ========================= */

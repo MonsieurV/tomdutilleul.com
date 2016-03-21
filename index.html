@@ -12,8 +12,8 @@
 </head>
 <body>
   <header>
-  	<div class="wrap">
-  		<nav>
+  	<div class="container">
+  		<nav class="row">
   			<ul id="top-menu">
   				<li><a href="/#home">Accueil</a></li>
   				<li><a href="/#recherche">Recherche</a></li>
@@ -22,22 +22,22 @@
   			</ul>
   		</nav>
   	</div>
-</header>
+  </header>
 
-		<section id="home">
-			<div class="colMoi">
-			<!-- <img src="image/moi.png" alt="Your logo" /> -->
-			</div>
-			<div class="colTitre">
-			<h1>Tom Dutilleul</h1>
-			<h4>Doctorant en mathématiques</h4>
-			</div>
-		</section>
+	<section id="home">
+    <div class="container">
+  		<div class="main-title row">
+    		<h1>Tom Dutilleul</h1>
+    		<h4>Doctorant en mathématiques</h4>
+  		</div>
+    </div>
+	</section>
 
-		<section id="presentation">
-			<div class="wrap">
-				<h3>Présentation</h3>
-				<p class="justify">
+	<section class="largerow">
+		<div class="container">
+      <div class="row">
+  			<h3>Présentation</h3>
+  			<p class="justify">
           Je suis actuellement doctorant au sein du <a href="https://www.math.univ-paris13.fr/laga/index.php/fr/">LAGA</a>,
           un laboratoire de recherche en mathématiques rattaché à
           <a href="https://www.univ-paris13.fr/">l'université Paris XIII</a>.
@@ -45,34 +45,35 @@
           homogènes", sous la direction de
           <a href="https://www.math.univ-paris13.fr/~beguin/Accueil.html">François Béguin</a>.
         </p>
-			</div>
-			<div class="plogo">
-  			<div class="logo">
-  				<a href="https://www.univ-paris13.fr/">
-            <img src="/static/img/paris_13.png" title="Université Paris 13">
-          </a>
-  			</div>
-  			<div class="logo">
-          <a href="https://www.math.univ-paris13.fr/laga/index.php/fr/">
-            <img src="/static/img/laga.png" title="Laboratoire LAGA">
-          </a>
-  			</div>
-			</div>
-		</section>
+      </div>
+      <div class="row">
+        <div class="plogo">
+          <div class="logo">
+            <a href="https://www.univ-paris13.fr/">
+              <img src="/static/img/paris_13.png" title="Université Paris 13">
+            </a>
+          </div>
+          <div class="logo">
+            <a href="https://www.math.univ-paris13.fr/laga/index.php/fr/">
+              <img src="/static/img/laga.png" title="Laboratoire LAGA">
+            </a>
+          </div>
+        </div>
+      </div>
+		</div>
+	</section>
 
-		<section>
-			<div class="wrap" id="promo">
-			</div>
-		</section>
+	<div class="padding-row"></div>
 
-		<section id="recherche">
-			<div class="wrap">
-				<h3>Recherche</h3>
-				<p>
+	<section class="largerow" id="recherche">
+		<div class="container">
+      <div class="row">
+  			<h3>Recherche</h3>
+  			<p>
           Mes thèmes de recherche sont la dynamique hyperbolique et la géométrie
           Riemanienne/Lorentzienne.
         </p>
-			  <h5>Mémoire de M2</h5>
+  		  <h5>Mémoire de M2</h5>
         <p>
           De mars à septembre 2015, j'ai effectué mon stage de recherche de M2,
           sous la direction de François Béguin et sur le thème de la dynamique
@@ -82,39 +83,37 @@
             [PDF]
           </a>
         </p>
-			</div>
-		</section>
+      </div>
+		</div>
+	</section>
 
-		<section>
-			<div class="wrap" id="promo">
-			</div>
-		</section>
+	<div class="padding-row"></div>
 
-		<section id="enseignement">
-			<div class="wrap">
-				<h3>Enseignement</h3>
-					<h5>2015-2016: monitorat à l'université Paris XIII</h5>
-			    <ul>
-            <li>
-              Cours/TD d'analyse pour L1
-            </li>
-            <li>
-              TD de maths tronc commun pour les L3 ingénieurs de l'école Sup Galilée
-            </li>
-          </ul>
-					<h5>2014-2015: Khôlles au Lycée Hoche de Versailles</h5>
-			    <h5>2012-2013: Khôlles au Lycée du Parc à Lyon</h5>
-			</div>
-		</section>
+	<section class="largerow" id="enseignement">
+		<div class="container">
+      <div class="row">
+  			<h3>Enseignement</h3>
+  			<h5>2015-2016: monitorat à l'université Paris XIII</h5>
+  	    <ul>
+          <li>
+            Cours/TD d'analyse pour L1
+          </li>
+          <li>
+            TD de maths tronc commun pour les L3 ingénieurs de l'école Sup Galilée
+          </li>
+        </ul>
+  			<h5>2014-2015: Khôlles au Lycée Hoche de Versailles</h5>
+  	    <h5>2012-2013: Khôlles au Lycée du Parc à Lyon</h5>
+      </div>
+		</div>
+	</section>
 
-		<section>
-			<div class="wrap" id="promo">
-			</div>
-		</section>
+	<div class="padding-row"></div>
 
-		<section id="contact">
-			<div class="wrap">
-				<h3>Coordonnées</h3>
+	<section class="largerow" id="contact">
+		<div class="container">
+      <div class="row">
+  			<h3>Coordonnées</h3>
         <p>
           LAGA Université Paris XIII<br>
           Bâtiment A, bureau A301<br>
@@ -129,11 +128,12 @@
         <p>
           <a href="/static/pdf/CV_Tom_Dutilleul.pdf">Mon CV</a>
         </p>
-			</div>
-		</section>
+      </div>
+		</div>
+	</section>
 
-		<footer>
-			Designed and hosted by <a target="_blank" href="https://www.ytotech.com">Yoan Tournade</a>
-		</footer>
+	<footer>
+		Designed and hosted by <a target="_blank" href="https://www.ytotech.com">Yoan Tournade</a>
+	</footer>
 </body>
 </html>
