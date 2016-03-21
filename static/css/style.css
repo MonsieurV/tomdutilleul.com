@@ -98,7 +98,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   background: #000 url('/static/img/background.jpg') top center; /* repea fixed; */
-  font-family: "Lora", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#FFF; }
 
 
@@ -274,6 +274,7 @@ section {
     text-align:center;
     margin-top:10px;
     padding:11.7em 0;
+    font-family: "Lora";
 }
 
 section.largerow {
