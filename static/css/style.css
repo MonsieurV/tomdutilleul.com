@@ -319,17 +319,17 @@ section {
 /* Footer ========================= */
 
 footer {
-    color:#222;
+    color:#FFF;
     text-align:center;
     font-size:12px;
     margin:40px auto 10px;
 }
 footer a {
-    color:#222;
+    color:#FFF;
     text-decoration:underline;
 }
 footer a:hover {
-    color:#222;
+    color:#FFF;
 }
 
 /* Responsive styles ========================= */
